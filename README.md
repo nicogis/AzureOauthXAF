@@ -96,8 +96,7 @@ namespace AzureOauth.Web
 ```
 
 - Set Azure Application
-- 
-![](images/AzurePanel.png))
+![](images/AzurePanel.png)
 
 - In web.config insert in appSettings:
 ```xml
