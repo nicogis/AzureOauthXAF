@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureOauth.Module", "AzureOauth.Module\AzureOauth.Module.csproj", "{AE03CAC7-0D87-407B-AEDF-AAC7C9EDD0CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureOauth.Module.Web", "AzureOauth.Module.Web\AzureOauth.Module.Web.csproj", "{C931D124-ECCA-4647-A14F-260F5FDF6ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureOauth.Web", "AzureOauth.Web\AzureOauth.Web.csproj", "{A235E513-129F-4E18-9E23-16702B6D8034}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementi di soluzione", "Elementi di soluzione", "{BC4C8923-1CF9-488E-BBFC-1F83868D9DC6}"
+	ProjectSection(SolutionItems) = preProject
+		images\AzurePanel.png = images\AzurePanel.png
+		images\LoginWithActions_ModelEditor.png = images\LoginWithActions_ModelEditor.png
+		images\LogonPageWithOAuthProviders.png = images\LogonPageWithOAuthProviders.png
+		images\LogonTemplateContent_TemplateGalley.png = images\LogonTemplateContent_TemplateGalley.png
+		images\LogonText_ModelEditor.png = images\LogonText_ModelEditor.png
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE03CAC7-0D87-407B-AEDF-AAC7C9EDD0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE03CAC7-0D87-407B-AEDF-AAC7C9EDD0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE03CAC7-0D87-407B-AEDF-AAC7C9EDD0CD}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{AE03CAC7-0D87-407B-AEDF-AAC7C9EDD0CD}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{AE03CAC7-0D87-407B-AEDF-AAC7C9EDD0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE03CAC7-0D87-407B-AEDF-AAC7C9EDD0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C931D124-ECCA-4647-A14F-260F5FDF6ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C931D124-ECCA-4647-A14F-260F5FDF6ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C931D124-ECCA-4647-A14F-260F5FDF6ABD}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{C931D124-ECCA-4647-A14F-260F5FDF6ABD}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{C931D124-ECCA-4647-A14F-260F5FDF6ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C931D124-ECCA-4647-A14F-260F5FDF6ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A235E513-129F-4E18-9E23-16702B6D8034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A235E513-129F-4E18-9E23-16702B6D8034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A235E513-129F-4E18-9E23-16702B6D8034}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{A235E513-129F-4E18-9E23-16702B6D8034}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{A235E513-129F-4E18-9E23-16702B6D8034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A235E513-129F-4E18-9E23-16702B6D8034}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {327009F7-339B-4363-8B62-2967EE7AA73A}
+	EndGlobalSection
+EndGlobal
