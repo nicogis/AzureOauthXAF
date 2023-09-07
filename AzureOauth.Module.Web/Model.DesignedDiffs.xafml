@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="LoginWithMicrosoft" PaintStyle="CaptionAndImage" ImageName="Microsoft" CustomCSSClassName="LoginWithMicrosoft" IsPostBackRequired="True" />
+    </Actions>
+  </ActionDesign>
+  <Options CollectionsEditMode="Edit" />
+  <SchemaModules>
+    <SchemaModule Name="SystemAspNetModule" Version="22.1.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="22.1.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <ViewItems>
+    <PropertyEditor Name="PropertyEditors">
+      <RegisteredPropertyEditor PropertyType="System.Drawing.Color" EditorType="DevExpress.ExpressApp.Web.Editors.ASPx.ASPxColorPickerPropertyEditor" />
+    </PropertyEditor>
+  </ViewItems>
+  <Views>
+    <DetailView Id="AuthenticationStandardLogonParameters_DetailView">
+      <Items>
+        <StaticText Id="LogonText" Caption="Login to your account" />
+      </Items>
+    </DetailView>
+  </Views>
+</Application>
